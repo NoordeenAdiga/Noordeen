@@ -1,0 +1,123 @@
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(199, 171, 171);
+  }
+
+ .myCp {
+    position: absolute;
+  }
+
+
+
+.myFont
+  {
+
+    font-size:45px;
+  }
+
+.otherHr 
+{ 
+    margin: auto;
+    border-top: 4px solid green;
+    width:70px;
+}
+
+.myhr 
+{
+    border-top: 4px solid green;
+    margin: left;
+    width:70px;
+}
+
+.myColor
+{
+
+    background-color:  #6aaf08;
+}
+
+
+
+.myColor1 
+{
+    margin: auto;
+    border-top: 3px solid yellow  ;
+    width:50px;
+ }
+
+
+.img-thumbnail
+{
+
+   border:none;
+
+   background-color: rgb(107, 180, 48);
+   
+ }
+
+.myCard:hover
+{
+    border: 1px solid #ccc;
+    transition: 1s;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.myLawnCare {
+    display: none;
+}
+
+.myGardenCare {
+    display: none;
+}
+
+.myPlanting {
+    display: none;
+}
+
+.myAll {
+
+}
+
+.myTestimonials {
+    height: 450px;
+    background-image: linear-gradient(rgba(92, 319, 18, 0.651), rgba(83, 230, 15, 0.637)),
+                     url(./img/testimonials-bg.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+
+.myIntro{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url(img/intro-bg.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    background-position: center;
+}
+
